@@ -14,5 +14,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vcicmanec/dealternator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vcicmanec/dealternator/issues"
+  },
+  "homepage": "https://github.com/vcicmanec/dealternator#readme"
 }
