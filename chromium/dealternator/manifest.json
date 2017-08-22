@@ -1,0 +1,24 @@
+﻿{
+  "name": "Dealternator",
+  "version": "0.3",
+  "manifest_version": 2,
+  "description": "Replaces all mentions of alt-right by its true name",
+  "permissions": [
+    "<all_urls>"
+  ],
+  
+    "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["script.js"],
+      "run_at": "document_end"
+    }
+  ],
+
+  "icons":{
+    "128": "icon.png",
+    "48": "icon48.png",
+    "16": "icon16.png"
+  }
+ 
+ }
