@@ -8,7 +8,7 @@ var patterns = [
     ["for the ", "", "for the Nazis"],
     ["in the ", "", "among the Nazis"],
     ["joining ", "", "Nazis"],
-    ["(\w+) of the", "", "Nazi kokot $1"],
+    ["(\w+) of the", "", "Nazi $1"],
     ["", "makes", "Nazis make"],
     ["", " &", 'Nazis &'],
     ["(a)n ", "", "$1 Nazi"],
